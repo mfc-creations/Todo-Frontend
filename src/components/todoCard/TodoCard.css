@@ -1,0 +1,19 @@
+.todo__card {
+  display: flex;
+  width: 15rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+.icon__gp svg:first-child {
+  margin-right: 1rem;
+}
+.icon__gp svg {
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
