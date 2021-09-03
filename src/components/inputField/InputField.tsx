@@ -34,7 +34,7 @@ const InputField: React.FC<Props> = ({
       {loading ? (
         <Spinner />
       ) : (
-        <button disabled={value.trim().length == 0} onClick={handleAddTodo}>
+        <button disabled={value.trim().length === 0} onClick={handleAddTodo}>
           {editing.value ? "Update" : "Add"}
         </button>
       )}
